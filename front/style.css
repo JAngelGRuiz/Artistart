@@ -1,0 +1,38 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.sos{
+  background-color: #192a56;
+}
+.navcolor{
+  background-color: #7f8fa6;
+  color: white;
+}
+/* .usuario{
+  text-align: right;
+} */
+.uno{
+  padding-top: 15px;
+  background-color: #718093;
+  text-align: center;
+  height: 700px; !important;
+}
+.dos{
+  padding-top: 15px;
+  background-color: #718093;
+  text-align: center;
+  height: 2000px; !important;
+}
+.extra{
+  height: 150px !important;
+}
+.titulo{
+  border: 5px solid black;
+}
+.card{
+  color: black;
+}
+.imas{
+  border-radius: 50%;
+}
