@@ -2,6 +2,7 @@ body{
   font-family: 'Roboto', sans-serif;
   color: white;
   border-radius: 50%;
+
 }
 .sos{
   background-color: #192a56;
@@ -14,7 +15,6 @@ body{
 } */
 .uno{
   padding-top: 15px;
- 
   text-align: center;
   height: 700px; !important;
 }
@@ -36,7 +36,6 @@ body{
 .imas{
   border-radius: 50%;
 }
-
 .circular{
   border-radius: 50%;
 }
@@ -49,3 +48,4 @@ body{
 .barra{
   background: url(img/fondo.jpg);
 }
+
