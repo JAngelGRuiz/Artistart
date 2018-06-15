@@ -5,30 +5,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <title>Artist-start</title>
+     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>   
+    <title>Unete! ArtistStart</title>
   </head>
   <body>
     <!-- BARRA DE NAVEGACiÓN -->
-    <nav class="navbar navbar-expand-lg navbar-light navcolor">
-      <a class="navbar-brand" href="./index.html">Artist-start</a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light navcolor">
+      <a class="navbar-brand" href="./index.html"><img src="img/logo.png" height="100px" width="250px" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="./index2.html">Música <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./index2.html"><button class="btn btn-danger" type="submit">Música</button><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index3.html"> Fotografia</a>
+            <a class="nav-link" href="./index3.html"><button class="btn btn-danger" type="submit">Fotografía</button></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index4.html">Pintura</a>
+            <a class="nav-link" href="./index4.html"><button class="btn btn-danger" type="submit">Pintura</button></a>
           </li>
         </ul>
       </div>
       <span class="navbar-text">
-        <a class="navbar-brand" href="./index5.html">Artist-start</a>
+        <a class="navbar-brand" href="./index5.html"><button class="btn btn-outline-light bg-dark my-2 my-sm-0 b" type="submit">Unirse</button></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,8 +40,8 @@
     </nav>
           <!-- ACABA LA BARRA DE NAVEGACIÓN -->
     <div class="col-12 sos">
-      <div class="row">
-        <div class="col"><div class="">
+      <div class="row bg-light">
+        <div class="col bg-light"><div class="">
           <p></p>
           <p></p>
       </div>
@@ -47,15 +50,15 @@
         <!-- FORMULARIO -->
             <form>
               <div class="form-group">
-                <label for="exampleFormControlInput1">Correo electronico</label>
+                <label for="exampleFormControlInput1" class="text-dark">Correo electronico</label>
                 <input type="email" class="form-control" id="correo" placeholder="name@example.com">
               </div>
               <div class="form-group">
-                <label for="exampleFormControlInput1">Usuario</label>
-                <input type="email" class="form-control" id="user" placeholder="Usuario">
+                <label for="exampleFormControlInput1" class="text-dark">Nombre</label>
+                <input type="email" class="form-control" id="user" placeholder="Nombre">
               </div>
               <div class="form-group">
-                <label for="exampleFormControlSelect1">¿Qué tipo de artista eres?</label>
+                <label for="exampleFormControlSelect1" class="text-dark">¿Qué tipo de artista eres?</label>
                 <select class="form-control" id="artista">
                   <option>Elige tu tipo de perfil</option>
                   <option>Musico</option>
@@ -64,17 +67,17 @@
                 </select>
               </div>
               <div class="form-group">
-                <label for="exampleFormControlInput1">Genero</label>
+                <label for="exampleFormControlInput1" class="text-dark">Genero</label>
                 <input type="email" class="form-control" id="genero" placeholder="Genero">
               </div>
               <form>
                 <div class="form-group">
-                  <label for="exampleFormControlFile1">Foto de perfil</label>
+                  <label for="exampleFormControlFile1" class="text-dark">Foto de perfil</label>
                   <input type="file" class="form-control-file" id="foto">
                 </div>
               </form>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Breve descripción</label>
+                <label for="exampleFormControlTextarea1" class="text-dark">Breve descripción</label>
                 <textarea class="form-control" id="descripcion" rows="3"></textarea>
               </div>
               <button type="button" class="btn btn-secondary btn-lg boton" id="iniciar">Iniciar</button>

@@ -29,19 +29,11 @@ btnGuardar.addEventListener("click", () =>{
 	}).catch((error) =>{
 		console.log(error)
 	})
+})	
+
 //////////////////////////////////////////////////////////////////////////////////////////
-ref.on('value', function(data){  //on esta escuchando siempre y once no, sólo lo hace una vez
-	console.log("XD", data.val())
-	let dat = data.val()
-	let nombres = "";
-	for(let i in dat){
-		console.log(dat[i].nombre);
-		dataUsuario.innerHTML = dat[i].nombre;
-		nombres += dat[i].nombre + " ";
-	}
-	dataUsuario.innerHTML = nombres;
-})
+
 
 
 	// .value --> Para obtener el valor de un input.
-})
+
